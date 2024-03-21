@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            COMPUTER
+        </title>
+        <meta charset="utf-8" />
+        
+        <link rel="stylesheet" type="text/js" href="COMPUTERLOGS.js">
+        <link rel="stylesheet" type="text/css" href="COMPUTERLOGS.css">
+        <link rel="icon" type="image/x-icon" href="../Pictures/Computer.png">
+
+    </head>
+
+    <body>
+        
+        <script src="COMPUTERLOGS.js"></script>
+
+        <div class="center">
+
+            <a >
+                <img src="Pictures/Computer.jpg" alt="Someone's room" 
+                style="width: 2500px;height: 1000px; position: absolute; 
+                top:0px;left: 0px;pointer-events: none;" >
+            </a>
+
+        <div style="position: fixed; bottom:10px; left: 10px;">
+            <a href="../RESETALEOfficialSite.html">
+                <img src="../Pictures/SavePoint 2.png" alt="Back" 
+                style="width: 50px;height: 50px;"/></a>
+        </div>
+
+            <blockquote style="position: absolute;top: 570px;left: 1155px;opacity: 0%;">
+                <button onclick="myFunction()"><img src="../Pictures/Computer.png" alt="Open" 
+                style="width: 60px;height: 60px;"/></button>
+            </blockquote>
+
+            <div class="overlay-black" id="myDIV" style="position: fixed;top: -210px;display: none;" align="center">
+
+                <div class="BGIMAGE2" >
+                    <img src="Pictures/GREEN.jpg" alt="Norway" style="width: 200%;border-radius: 500px;"
+                    >
+                </div>
+
+                <div>
+
+                    <img src="Pictures/Filter.gif" alt="Norway" style="width:100%;" class="Filter">
+                    
+                    <div>
+                        <a style="font-family:'wingdingsregular';">Enter Password</a>
+
+                        <div class="topnav">
+                            <input type="text" placeholder="Put \ Before entering." class="DTMText" onchange = "search(this.value);">
+                            <script>
+                                function search(q){
+                                       if(q==""){
+                                              return false;
+                                       }
+                              
+                                       let Link  = 'Passwords'+q+'.html'
+                                       window.open(Link, '_blank');  
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                    <img src="Pictures/Border.png" alt="Norway" style="width:100%;height: 100%; top: 0px;left: 0px;
+                    position: fixed;filter: 
+                    brightness(0.1);
+                    pointer-events: none;" 
+                    align="center">
+
+                    <blockquote style="position: fixed; bottom:10px; left: 10px;">
+                        <button onclick="myFunction()" class="DTSText" style="border: none;">Return</button>
+                    </blockquote>
+            </div>
+
+        </div> 
+
+    </body>
+</html>

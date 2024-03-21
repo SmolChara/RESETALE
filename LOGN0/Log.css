@@ -1,0 +1,190 @@
+.Text{
+
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-family:'wingdings';
+    text-shadow:  0 5px 50px rgba(0, 0, 0, 0.993);
+
+    width: 700px;
+    height: 900px;
+    padding: 50px;
+
+    overflow: auto;
+    scrollbar-width: auto;
+
+}
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(102, 76, 117); 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2b1c31; 
+      }
+
+/* width */
+#scroll::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  #scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  #scroll::-webkit-scrollbar-thumb {
+    background: rgb(102, 76, 117); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  #scroll::-webkit-scrollbar-thumb:hover {
+    background: #2b1c31; 
+  }
+
+.Overlay{
+    position: absolute;
+    opacity: 0.7;
+    pointer-events: none;
+    filter: brightness(0);
+}
+
+.Top{
+
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-family:Impact;
+    border-radius: 1000px;
+    pointer-events: none;
+
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.Toptext{
+
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 150px;
+    padding-top: 15px;
+
+}
+
+.LOG{
+
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact;
+    text-align: right;
+    position: sticky;
+    text-shadow: #2b1c31;
+
+}
+
+.END{
+
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:Impact;
+
+}
+
+.center {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .Blur {
+    
+    position: fixed;
+    top: 0px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    filter: blur(1.5rem);
+    background-attachment: fixed;
+    pointer-events: none;
+
+  }
+
+  .Filter {
+
+    position: fixed;
+    top: 0px;
+    background-attachment: fixed;
+    filter: blur(1px);
+    opacity: 0.3;
+    pointer-events: none;
+    
+  }
+
+  .Yellow{
+
+    color: rgb(255, 230, 0);
+
+  }
+  
+ 
+  .text-block {
+    position: relative;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.774);
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    padding: 100px;
+    color: white;
+    filter: blur(1px);
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.993);
+
+  }
+
+body{
+
+    background-color: black;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+html {
+    display: table;
+    margin: auto;
+    zoom: 70%;
+}
+
+html, body {
+    height: 100%;
+}
